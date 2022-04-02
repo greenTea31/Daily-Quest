@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14BF1F3B27F8749400512CBD /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF1F3A27F8749400512CBD /* ViewController2.swift */; };
 		14D4334227F81E38003D5C17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D4334127F81E38003D5C17 /* AppDelegate.swift */; };
 		14D4334427F81E38003D5C17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D4334327F81E38003D5C17 /* SceneDelegate.swift */; };
 		14D4334627F81E38003D5C17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D4334527F81E38003D5C17 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14BF1F3A27F8749400512CBD /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		14D4333E27F81E38003D5C17 /* Daily-Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily-Quest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D4334127F81E38003D5C17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14D4334327F81E38003D5C17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,15 +58,40 @@
 		14D4334027F81E38003D5C17 /* Daily-Quest */ = {
 			isa = PBXGroup;
 			children = (
+				14EC937827F8321700116286 /* Model */,
+				14EC937927F8322100116286 /* View */,
+				14EC937A27F8322800116286 /* Controller */,
 				14D4334127F81E38003D5C17 /* AppDelegate.swift */,
 				14D4334327F81E38003D5C17 /* SceneDelegate.swift */,
-				14D4334527F81E38003D5C17 /* ViewController.swift */,
-				14D4334727F81E38003D5C17 /* Main.storyboard */,
 				14D4334A27F81E39003D5C17 /* Assets.xcassets */,
 				14D4334C27F81E39003D5C17 /* LaunchScreen.storyboard */,
 				14D4334F27F81E39003D5C17 /* Info.plist */,
 			);
 			path = "Daily-Quest";
+			sourceTree = "<group>";
+		};
+		14EC937827F8321700116286 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14EC937927F8322100116286 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14D4334727F81E38003D5C17 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14EC937A27F8322800116286 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				14D4334527F81E38003D5C17 /* ViewController.swift */,
+				14BF1F3A27F8749400512CBD /* ViewController2.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14D4334627F81E38003D5C17 /* ViewController.swift in Sources */,
+				14BF1F3B27F8749400512CBD /* ViewController2.swift in Sources */,
 				14D4334227F81E38003D5C17 /* AppDelegate.swift in Sources */,
 				14D4334427F81E38003D5C17 /* SceneDelegate.swift in Sources */,
 			);
