@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var numberTest: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -24,6 +25,10 @@ class ViewController: UIViewController {
             sender.backgroundColor = UIColor.green
         }
         self.performSegue(withIdentifier: "segueTest", sender: self)
+    }
+    
+    @IBAction func unwindVC1(segue: UIStoryboardSegue) {
+        
     }
     
     
